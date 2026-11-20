@@ -1,0 +1,14 @@
+Checks: 'readability-*,
+performance-*,
+portability-*,
+concurrency-*,
+clang-analyzer-*,
+cppcoreguidelines-*,'
+
+WarningsAsErrors: true
+
+#CheckOptions:
+#  - key: cppcoreguidelines-avoid-magic-numbers.IgnoredIntegerValues
+#    value: '11' 
+
+

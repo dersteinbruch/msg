@@ -1,0 +1,26 @@
+To compile msg you need to change your
+working directory to the root directory of
+the msg project.
+
+example:
+~/msg/
+Downloads/msg/
+
+After switching the working directory
+input following lines in your shell.
+
+1. mkdir build
+
+2. cmake -B build
+
+3. cmake --build build
+
+Now the msg binary should be under:
+msg/build/src/
+
+If you are under a UNIX-like OS
+you can move or copy the binary
+to /usr/local/bin or another shell path.
+
+Now you should be able to execute the binary
+anywhere.

@@ -1,0 +1,10 @@
+The directory and file structure of msg is very simple.
+
+It consists of the root directory (msg) with
+directories for cmake code (cmake), documentation (doc),
+libraries (lib) and the source code (src).
+
+The main.cpp is located in the src directory.
+
+The source directory currently has no subdirectories.
+This could change in the future.
